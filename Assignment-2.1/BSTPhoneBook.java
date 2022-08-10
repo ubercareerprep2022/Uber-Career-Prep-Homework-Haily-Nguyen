@@ -39,16 +39,6 @@ public class BSTPhoneBook extends ArrayList<Phone> {
         }
     }
 
-    public int compare(String a, String b) {
-        if(a.charAt(0) > b.charAt(0)){
-            return 1;
-        } else if (a.charAt(0) < b.charAt(0)){
-            return -1;
-        } else {
-            return 1;
-        }
-    }
-
     public int size(Node root) {
         if (root == null)
             return 0;
